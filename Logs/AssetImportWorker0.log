@@ -1,37 +1,46 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.6f1 (c0fade0cc7e9) revision 12647134'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Enterprise; OS build 19041.1415; Version 2004; 64bit' Language: 'en' Physical Memory: 32706 MB
+OS: 'Windows 10 Home; OS build 19044.1466; Version 2009; 64bit' Language: 'en' Physical Memory: 8059 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2021.1.6f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.1.6f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/yliu821/Documents/Unity/Trash Ninja/Trash-Ninja-Prototype
+C:/Users/young/Desktop/sae folder/tri8/Trash-Ninja-Prototype
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 49974
 Successfully changed project path to: C:/Users/yliu821/Documents/Unity/Trash Ninja/Trash-Ninja-Prototype
 C:/Users/yliu821/Documents/Unity/Trash Ninja/Trash-Ninja-Prototype
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 100.29 ms, found 2 plugins.
+=======
+18417
+Successfully changed project path to: C:/Users/young/Desktop/sae folder/tri8/Trash-Ninja-Prototype
+C:/Users/young/Desktop/sae folder/tri8/Trash-Ninja-Prototype
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 192.85 ms, found 2 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/yliu821/Documents/Unity/Trash Ninja/Trash-Ninja-Prototype/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/young/Desktop/sae folder/tri8/Trash-Ninja-Prototype/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
-    Vendor:   NVIDIA
-    VRAM:     4053 MB
-    Driver:   27.21.14.5671
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     4029 MB
+    Driver:   25.20.100.6577
 Initialize mono
+<<<<<<< Updated upstream
 Mono path[0] = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
@@ -59,11 +68,41 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+=======
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.167334 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 125.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.045 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.081976 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 136.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.846 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3370 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.8 MB.
+System memory in use before: 127.7 MB.
 System memory in use after: 127.9 MB.
 
+<<<<<<< Updated upstream
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3822.
 Total: 2.666800 ms (FindLiveObjects: 0.310300 ms CreateObjectMapping: 0.154900 ms MarkObjects: 2.063200 ms  DeleteObjects: 0.137600 ms)
 
@@ -72,4 +111,40 @@ Received Import Request.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192802472f4f7c89d29b1de7b3d8a313') in 0.015920 seconds 
+=======
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3827.
+Total: 3.683900 ms (FindLiveObjects: 0.419000 ms CreateObjectMapping: 0.328000 ms MarkObjects: 2.851800 ms  DeleteObjects: 0.083200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/BG_landfill.png
+  artifactKey: Guid(c0eefd13a219e4944acde8e653a3b2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BG_landfill.png using Guid(c0eefd13a219e4944acde8e653a3b2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa2432a30fe44728d7091dd7d47be2e') in 0.278211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000830 seconds.
+  path: Assets/dust ball.png
+  artifactKey: Guid(b5ec452772871444bafd5715deeb862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dust ball.png using Guid(b5ec452772871444bafd5715deeb862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b760bf4c818cd15587df5c689042abba') in 0.040728 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007515 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.352 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3362 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3869.
+Total: 3.159600 ms (FindLiveObjects: 0.343000 ms CreateObjectMapping: 0.189600 ms MarkObjects: 2.601800 ms  DeleteObjects: 0.024200 ms)
+
+>>>>>>> Stashed changes
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
