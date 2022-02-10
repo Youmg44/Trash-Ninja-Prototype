@@ -1,0 +1,123 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.6f1 (c0fade0cc7e9) revision 12647134'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 19041.1415; Version 2004; 64bit' Language: 'en' Physical Memory: 32706 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/yliu821/Documents/Unity/Trash Ninja/Trash-Ninja-Prototype
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54026
+Successfully changed project path to: C:/Users/yliu821/Documents/Unity/Trash Ninja/Trash-Ninja-Prototype
+C:/Users/yliu821/Documents/Unity/Trash Ninja/Trash-Ninja-Prototype
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 101.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/yliu821/Documents/Unity/Trash Ninja/Trash-Ninja-Prototype/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
+    Vendor:   NVIDIA
+    VRAM:     4053 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002567 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 92.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.518 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007292 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 107.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.234 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3370 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.8 MB.
+System memory in use after: 127.9 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3822.
+Total: 3.337000 ms (FindLiveObjects: 0.355100 ms CreateObjectMapping: 0.133400 ms MarkObjects: 2.688200 ms  DeleteObjects: 0.159500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/dust ball.png
+  artifactKey: Guid(b5ec452772871444bafd5715deeb862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dust ball.png using Guid(b5ec452772871444bafd5715deeb862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc960bd8ed0bc8472352506a5e5a2ad') in 0.145413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 611.803519 seconds.
+  path: Assets/BG_landfill.png
+  artifactKey: Guid(c0eefd13a219e4944acde8e653a3b2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BG_landfill.png using Guid(c0eefd13a219e4944acde8e653a3b2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1fe09329d4a489b9f6ed2bc156eb61') in 0.020735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.634125 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.002736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 194.743796 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(54a95b2d9eafc6041a38ef65d1313738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(54a95b2d9eafc6041a38ef65d1313738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb38e05e17e271ad105d49e22a38ece') in 0.003308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.829287 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27944bdea339c97c39027c7eea529c') in 0.004234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.888813 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57dc78109ca561aef7ed2d3bf14a3d19') in 0.003452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.035855 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab
+  artifactKey: Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab using Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224dcf8af930b56afe774afd5bc52eb2') in 0.023870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab
+  artifactKey: Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab using Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d26290c9ad5ec76566a53b7859f1ae') in 0.007507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 801.681604 seconds.
+  path: Assets/BG_landfill.png
+  artifactKey: Guid(c0eefd13a219e4944acde8e653a3b2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BG_landfill.png using Guid(c0eefd13a219e4944acde8e653a3b2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4539c3afaf1e8b23e511cf2c314284a9') in 0.013752 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
