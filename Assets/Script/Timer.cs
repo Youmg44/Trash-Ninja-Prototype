@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
     float timer = 10;
     public Text timeclock;
+
     void Start()
     {
         
@@ -20,7 +22,7 @@ public class Timer : MonoBehaviour
 
         if (timer <= 0)
         {
-
+            SceneManager.LoadScene("gameoverscreen");
         }
     }
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class scoremanager : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class scoremanager : MonoBehaviour
 
     int score = 0;
     int highscore = 0;
+
 
     private void Awake()
     {
